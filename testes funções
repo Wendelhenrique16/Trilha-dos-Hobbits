@@ -29,3 +29,7 @@ os marcos não alcançados precisam estar bloqueados até que o usuario chegue n
 e branco, e as informações (minutagem, descrições e afins) não aparecem. Quando o usuario chegar, tudo é desbloqueado.
 
 o restante dos filmes será bloqueado até o usuario terminar o primeiro. mostrando sempre a distancia acumulada
+
+o aplicativo guarda sempre a distancia total caminhada, independente do modo facil ou nao 
+
+o modo facil do aplicativo será por porcentagem do total necessario, facil ser apenas 10% do total, medio 50% e completo ser a jornada completa.
