@@ -63,7 +63,7 @@ final progressoGeralProvider = Provider<double>((ref) {
 });
 
 extension on Stream<ProgressoUsuario> {
-  /// Pequeno helper equivalente ao `startWith` do rxdart, sem precisar
+  /// Pequeno helper equivalente ao `startWith` do rxdart, sem precisar6
   /// adicionar a dependência só por causa disso.
   Stream<ProgressoUsuario> startWith(ProgressoUsuario valorInicial) async* {
     yield valorInicial;
