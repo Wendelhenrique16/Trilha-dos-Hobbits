@@ -1,0 +1,31 @@
+Testando a ideia do projeto inteiro
+
+a ideia do projeto é ser uma plataforma mobile que usa os passos do usuário e a distância percorrida
+para sincronizar com a jornada que Frodo e Sam fazem pela Terra Média com o Anel de Sauron, em destino a 
+Mordor.
+
+O aplicativo deve sincronizar com o googlefit, googlehealth e afins, para pegar os passos e a distância
+com o Frodo, informando ao usuario os marcos, aonde exatamente ele está sincronizado com o universo de tolkien
+utilizar descrições, imagens, minutagem de filme, tudo isso para dar a maior imersão possivel ao usuario.
+
+o aplicativo deve ter tanto a opção realista, ou seja, pra completar a jornada de frodo precisa seguir a 
+exata mesma quantidade de distância (aproximadamente 2890km), quanto a opção mais gamificada, por marcos mais simples
+pra quem não quer se comprometer por muito tempo (exemplo, diminuir por dificuldade, o facil seria uma distancia mais curta,
+algo como apenas 289km, ou ate menos, tanto faz)
+
+o aplicativo precisa ter tanto a opção de sincronziar os dados com o google fit (o que pode dar falhas ou demoras, ja que é 
+uma api externa que não sei mexer direito) ou adicionar a distancia caminhada (tanto por passos quanto por km) manualmente,
+e o aplicativo atualizar automaticamente sincronizando com o marco estabelecido.
+
+o aplicativo precisa manter a permanencia dos dados, disponivel a qualquer momento.
+
+separar por filme da trilogia, com a distancia realista de cada, e porcentagem de progresso pra todas
+
+o aplicativo deve ter um mapa interativo (zoom em pinça, clicar para ver checkpoints, imagens detalhadas em relação ao filme e minutagem realista)
+
+a formula de passos vai ser 0,75 metros por passo (logo, 1km é uns 1.333 passos), é só uma media... 
+
+os marcos não alcançados precisam estar bloqueados até que o usuario chegue no checkpoint, mas a imagem da cena ao clicar aparece, mas em preto
+e branco, e as informações (minutagem, descrições e afins) não aparecem. Quando o usuario chegar, tudo é desbloqueado.
+
+o restante dos filmes será bloqueado até o usuario terminar o primeiro. mostrando sempre a distancia acumulada
